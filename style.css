@@ -1598,12 +1598,13 @@ header .btn1{
   width: 180px;
   padding: 1.6% 0px;
   display: none;
+
+ 
  
 
   }
   
 .horizontalbar .topleft-logo{
-
   margin-right: 15rem;
 
   }
@@ -1627,19 +1628,21 @@ header .btn1{
 
   }
 .main1-hero h2{
- width:   90%;
- font-weight: 700;
+ width:   70%;
+ font-weight: 00;
  z-index: 9;
  text-align: center;
  line-height: 3.3rem;
  margin-top: -5.1rem;
 
+
 }
 
 .main1-hero p{
   width: 90%;
-  margin-top: -1rem;
+ font-size: 1.1rem;
   text-align: center;
+
 
 
 }
@@ -1649,6 +1652,7 @@ header .btn1{
   left: 33%;
   width:   35%;
   padding: 3.1% 35px;
+   font-size: 16px;
 
  
 }
@@ -1674,17 +1678,26 @@ header .btn1{
 .easybank-container .first-item h1{
   width :  90%;
   display: inline-block;
-   /* font-size: 2.3rem; */
-
+  line-height: 3rem;
  margin-left: 1rem;
+ font-weight: 700;
+ font-size: 2.3rem;
+ 
+}
 
-  
-  
+.easybank-container .first-item p {
+  color: hsl(233, 26%, 24%);
+  text-align: center;
+  padding: 0px 5%;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  width: 100%;
 }
 
   
 .container-holder .fa-cc-mastercard, .fa-pie-chart, .fa-code, .fa-users{
-  width: 30%;
+  width: 28%;
   color: green;
 
 }
@@ -1696,7 +1709,8 @@ header .btn1{
  color: hsl(233, 26%, 24%); 
  font-weight: 900;
   padding-bottom: 1rem;
-  font-size: 3.5rem;
+  font-size: 3rem;
+
 }
 .banner-wrapper .banner h4{
   font-size: 1.1rem;
@@ -1707,9 +1721,26 @@ header .btn1{
    opacity: 0.7;  
    margin: auto; 
  
+ 
+}
+
+.container-holder h2 {
+  color: green;
+  font-size: 1.7rem;
+  margin: auto;
+  opacity: 0.7;
+  font-weight: 700;
+  width: 350px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-section-second h3 {
+  color: hsl(233, 26%, 24%);
+  font-weight: 900;
+  padding-bottom: 1rem;
+  font-size: 2.7rem;
 }
 .banner-wrapper .banner p{
- 
   padding-bottom: 1rem;
 
 }
@@ -1795,6 +1826,15 @@ header .btn1{
 @media screen and (max-width: 484px) {
 body{
   width: 484px;
+}
+
+.main1-hero a {
+  top: 20rem;
+  position: absolute;
+  left: 34%;
+  width: 35%;
+  padding: 3% 30px;
+  font-size: 0.9rem;
 }
   
 }
